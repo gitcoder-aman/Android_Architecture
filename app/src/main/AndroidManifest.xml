@@ -17,6 +17,10 @@
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CheezyAndroidArchitecutre">
+
+        </activity>
+        <activity android:name="._4QuotesApp.QuotesActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
