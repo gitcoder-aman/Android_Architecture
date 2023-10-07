@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.tech.cheezyandroidarchitecutre"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.tech.cheezyandroidarchitecutre"
@@ -66,4 +66,13 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    //viewModel
+    val lifecycle_version = "2.6.2"
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+    //for compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-alpha02") // Check for the latest version
+    // LiveData
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+
 }

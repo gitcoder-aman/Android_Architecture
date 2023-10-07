@@ -1,11 +1,8 @@
-package com.tech.cheezyandroidarchitecutre.lifecycle_aware
+package com.tech.cheezyandroidarchitecutre._1lifecycle_aware
 
 import android.util.Log
 import androidx.lifecycle.DefaultLifecycleObserver
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.OnLifecycleEvent
 
 class Observer : DefaultLifecycleObserver {
 
