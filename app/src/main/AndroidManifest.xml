@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name="._5RoomDatabase.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -20,6 +21,10 @@
 
         </activity>
         <activity android:name="._4QuotesApp.QuotesActivity"
+            android:exported="true">
+        </activity>
+
+        <activity android:name="._5RoomDatabase.RoomActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
