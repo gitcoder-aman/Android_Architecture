@@ -22,7 +22,7 @@ class RoomActivity : ComponentActivity() {
                 val database = (application as MyApplication).database.contactDao()
 
                 GlobalScope.launch {
-                    database.insertContact(ContactEntity(0, "john", "9999", Date()))
+                    database.insertContact(ContactEntity(0, "john", "9999", Date(),1))
                 }
                 database.getContact().observe(this, Observer {
                     Log.d("room@@", "onCreate: $it")

@@ -18,7 +18,7 @@ class QuotesMainViewModel(val context: Context) : ViewModel() {
     private fun loadQuoteFromAssets(): Array<Quote> {
 
         //file read
-        val inputStream = context.assets.open("quotes.json")
+        val inputStream = context.assets.open("quotes_json.json")
         val size = inputStream.available()
         val buffer = ByteArray(size)
         inputStream.read(buffer)

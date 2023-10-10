@@ -11,5 +11,6 @@ data class ContactEntity(
     val name : String,
     val phone : String,
 
-    val createDate : Date
+    val createDate : Date,
+    val isActive : Int   //Migration
 )

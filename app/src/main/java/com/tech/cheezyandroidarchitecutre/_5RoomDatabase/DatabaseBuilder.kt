@@ -3,6 +3,7 @@ package com.tech.cheezyandroidarchitecutre._5RoomDatabase
 import android.content.Context
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.tech.cheezyandroidarchitecutre._5RoomDatabase.migration.MIGRATION_1_2
 
 object DatabaseBuilder {
 
@@ -18,7 +19,8 @@ object DatabaseBuilder {
                 context.applicationContext,
                 ContactDatabase::class.java,
                 "contactDB"
-            ).build()
+            ).addMigrations(MIGRATION_1_2)
+                .build()
             INSTANCE = instance
             instance
         }
