@@ -77,7 +77,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
     //json library for parsing the json data
-    implementation("com.google.code.gson:gson:2.8.9")
+    implementation("com.google.code.gson:gson:2.9.0")
 
     //for room database
     val room_version = "2.5.2"
@@ -92,5 +92,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
+    //retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    //gson retrofit
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
 }
