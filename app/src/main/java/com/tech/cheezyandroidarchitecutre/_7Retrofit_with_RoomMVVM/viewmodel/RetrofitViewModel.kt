@@ -1,10 +1,10 @@
-package com.tech.cheezyandroidarchitecutre._7Retrofit_MVVM.viewmodel
+package com.tech.cheezyandroidarchitecutre._7Retrofit_with_RoomMVVM.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.tech.cheezyandroidarchitecutre._7Retrofit_MVVM.model.Quote
-import com.tech.cheezyandroidarchitecutre._7Retrofit_MVVM.repository.QuoteRepository
+import com.tech.cheezyandroidarchitecutre._7Retrofit_with_RoomMVVM.model.Quote
+import com.tech.cheezyandroidarchitecutre._7Retrofit_with_RoomMVVM.repository.QuoteRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

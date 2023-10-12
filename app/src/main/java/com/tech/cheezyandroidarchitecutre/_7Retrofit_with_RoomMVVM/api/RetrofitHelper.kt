@@ -1,4 +1,4 @@
-package com.tech.cheezyandroidarchitecutre._7Retrofit_MVVM.api
+package com.tech.cheezyandroidarchitecutre._7Retrofit_with_RoomMVVM.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

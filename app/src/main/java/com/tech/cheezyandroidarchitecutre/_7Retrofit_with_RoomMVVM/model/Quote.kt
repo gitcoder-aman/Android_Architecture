@@ -1,4 +1,4 @@
-package com.tech.cheezyandroidarchitecutre._7Retrofit_MVVM.model
+package com.tech.cheezyandroidarchitecutre._7Retrofit_with_RoomMVVM.model
 
 data class Quote(
     val count: Int,

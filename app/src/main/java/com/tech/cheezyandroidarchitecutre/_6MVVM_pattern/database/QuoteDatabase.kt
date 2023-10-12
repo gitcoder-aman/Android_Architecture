@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 import com.tech.cheezyandroidarchitecutre._6MVVM_pattern.dao.QuoteDao
 import com.tech.cheezyandroidarchitecutre._6MVVM_pattern.model.Quote
 
-@Database(entities = [Quote::class], version = 1)
+@Database(entities = [Quote::class], version = 1, exportSchema = false)
 abstract class QuoteDatabase : RoomDatabase(){
     abstract fun quoteDao() : QuoteDao
 
